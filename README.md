@@ -35,6 +35,8 @@ The four `citlyze-*` skills read live workspace data through the Citlyze MCP ser
 
 `aeo-page-audit` needs no account: it uses your agent's own fetch tools and the same public checklist as the free [AEO grader](https://www.citlyze.com/free-tools/aeo-grader).
 
+For a deterministic version of the same check that also runs in CI, fails pull requests on regressions, and compares the initial HTML with the rendered page, use [ai-readable](https://github.com/citlyze/ai-readable): `npx ai-readable <url> --render`, or install its skill with `npx skills add Citlyze/ai-readable`.
+
 ## About Citlyze
 
 [Citlyze](https://www.citlyze.com) tracks how brands show up in AI search: visibility scores per engine, tracked prompts, citations, competitor comparisons, optimization recommendations, and AI crawler analytics. These skills are MIT licensed - use them, fork them, adapt them.
